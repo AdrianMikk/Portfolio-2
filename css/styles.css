@@ -33,7 +33,8 @@ main {
 }
 
 footer {
-  background-color: #333;
+  background: linear-gradient(to left, #8e2de2, #4a00e0);
+  /* Multicolored dark gradient with more stops */
   color: #fff;
   padding: 20px 0;
   text-align: center;
@@ -46,6 +47,7 @@ footer {
   color: #ccc;
   text-align: center;
 }
+
 
 
 .wrapper {
@@ -231,7 +233,7 @@ header {
 }
 
 #holidazeButton {
-  padding-top: 45px;
+  padding-top: 46px;
 }
 
 .button {
