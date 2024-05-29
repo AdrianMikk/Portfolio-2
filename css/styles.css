@@ -412,6 +412,10 @@ header {
     font-size: 16px;
   }
 
+  .git-icon {
+    padding-left: 20px;
+  }
+
   .projects-h2 {
     font-size: 24px;
   }
