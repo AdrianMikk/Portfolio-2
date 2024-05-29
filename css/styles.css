@@ -281,11 +281,13 @@ header {
 
 .about-image-wrapper {
   max-width: 400px;
+  padding-top: 85px;
 }
 
 .about-image {
   width: 100%;
   display: block;
+  border-radius: 20px;
 }
 
 /* MEDIA QUERIES */
@@ -373,7 +375,7 @@ header {
   }
 
   .about-image {
-    padding-top: 60px;
+    padding-top: 0;
   }
 }
 
