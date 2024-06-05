@@ -33,8 +33,7 @@ main {
 }
 
 footer {
-  background: linear-gradient(to left, #8e2de2, #4a00e0);
-  /* Multicolored dark gradient with more stops */
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
   color: #fff;
   padding: 20px 0;
   text-align: center;
@@ -43,12 +42,9 @@ footer {
 .footer-p {
   margin: 0;
   font-size: 14px;
-  font-family: "Poppins", sans-serif;
   color: #ccc;
   text-align: center;
 }
-
-
 
 .wrapper {
   width: 100%;
@@ -78,7 +74,37 @@ section {
 }
 
 .about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-image: linear-gradient(to right, #8e2de2, #4a00e0);
   min-height: 100vh;
+}
+
+.about-h2,
+.about-p {
+  color: white;
+  text-align: center;
+}
+
+.about-h2 {
+  padding: 40px;
+}
+
+.about-p {
+  max-width: 500px;
+  padding: 50px;
+}
+
+.about-image-wrapper {
+  max-width: 400px;
+  padding-top: 85px;
+}
+
+.about-image {
+  width: 100%;
+  display: block;
+  border-radius: 20px;
 }
 
 /* NAV */
@@ -256,40 +282,6 @@ header {
   border-radius: 10px;
 }
 
-/* ABOUT ME */
-.about {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  background-image: linear-gradient(to right, #8e2de2, #4a00e0);
-}
-
-.about-h2,
-.about-p {
-  color: white;
-  text-align: center;
-}
-
-.about-h2 {
-  padding: 40px;
-}
-
-.about-p {
-  max-width: 500px;
-  padding: 50px;
-}
-
-.about-image-wrapper {
-  max-width: 400px;
-  padding-top: 85px;
-}
-
-.about-image {
-  width: 100%;
-  display: block;
-  border-radius: 20px;
-}
-
 /* MEDIA QUERIES */
 @media only screen and (max-width: 1320px) {
   header {
@@ -304,18 +296,11 @@ header {
 }
 
 @media only screen and (max-width: 1023px) {
-
-  .card-wrapper,
-  .language-wrapper {
+  .card-wrapper {
     display: block;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-  }
-
-  .language-wrapper {
-    gap: 20px;
-    padding: 40px 0;
   }
 
   #ecomButton {
@@ -374,7 +359,7 @@ header {
     flex-direction: column;
   }
 
-  .about-image {
+  .about-image-wrapper {
     padding-top: 0;
   }
 }
@@ -410,10 +395,6 @@ header {
   .intro-p {
     padding: 10px;
     font-size: 16px;
-  }
-
-  .git-icon {
-    padding-left: 20px;
   }
 
   .projects-h2 {
