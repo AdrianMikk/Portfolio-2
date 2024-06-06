@@ -10,7 +10,7 @@ Welcome to my portfolio. This repository showcases my work, skills, and projects
 
 ## About Me
 
-I am a Frontend Developer passionate about creating beautiful and functional websites. I have a background in design and a keen eye for detail. I am proficient in HTML, CSS, and JavaScript and have experience working with React, Node.js, and MongoDB. I am a quick learner and always eager to expand my skill set.
+I am a Frontend Developer passionate about creating beautiful and functional websites. I have a background in design and a keen eye for detail. I am proficient in HTML, CSS, Tailwind, JavaScript, React & Bootstrap. I am a quick learner and always eager to expand my skill set.
 
 ## Skills
 
