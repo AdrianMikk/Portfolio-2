@@ -35,7 +35,7 @@ I am a Frontend Developer with a passion for creating beautiful and functional w
 
 ## Contact
 
-- [Email](adrianjohannessen5@gmail.com)
+- [Email](mailto:adrianjohannessen5@gmail.com)
 - [LinkedIn](https://www.linkedin.com/in/adrian-johannessen-a26356249/)
 - [GitHub](https://github.com/AdrianMikk)
 - [Discord](HoiskyPoisky)
