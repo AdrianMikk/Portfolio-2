@@ -18,24 +18,24 @@ I am a Frontend Developer with a passion for creating beautiful and functional w
 
 ## Projects
 
-### [Project 1: Portfolio Website]
+### [Project 1: EchoBids]
 
-- Description: Personal portfolio showcasing my work and skills
+- Description: A fully functional auction website. Where you can bid and create auctions.
 - Technologies: HTML, CSS, JavaScript
 
-### [Project 2: Weather App]
+### [Project 2: My E-com Store]
 
-- Description: Weather app that displays the current weather in a given location
+- Description: An E-commerce website with a functioning cart system.
 - Technologies: HTML, CSS, JavaScript
 
-### [Project 3: To-Do App]
+### [Project 3: Holidaze]
 
-- Description: To-do app that allows users to create, edit and delete tasks
-- Technologies: HTML, CSS, JavaScript
+- Description: A website where you can book and create venues!
+- Technologies: HTML, Tailwind CSS, React
 
 ## Contact
 
-- [Email](mailto:
+- [Email](adrianjohannessen5@gmail.com)
 - [LinkedIn](https://www.linkedin.com/in/adrian-mikkelsen-johannessen/)
 - [GitHub](https://github.com/AdrianMikk)
 - [Discord](HoiskyPoisky)
