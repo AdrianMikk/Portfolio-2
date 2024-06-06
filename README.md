@@ -20,6 +20,7 @@ I am a Frontend Developer passionate about creating beautiful and functional web
 
 ### [Project 1: EchoBids]
 [Github](https://github.com/AdrianMikk/auction-house)
+
 [Netlify](https://adrianmikk-sp2-echobids.netlify.app/)
 
 - Description: A fully functional auction website. Where you can bid and create auctions.
@@ -27,6 +28,7 @@ I am a Frontend Developer passionate about creating beautiful and functional web
 
 ### [Project 2: My E-com Store]
 [Github](https://github.com/AdrianMikk/JS-frameworksCA)
+
 [Netlify](https://adrianmikk-sp2-echobids.netlify.app/)
 
 - Description: An E-commerce website with a functioning cart system.
@@ -34,6 +36,7 @@ I am a Frontend Developer passionate about creating beautiful and functional web
 
 ### [Project 3: Holidaze]
 [Github](https://github.com/AdrianMikk/Project-Exam2)
+
 [Netlify](https://holidaze-adrianmikk.netlify.app/)
 
 - Description: A website where you can book and create venues!
