@@ -14,12 +14,7 @@ I am a Frontend Developer with a passion for creating beautiful and functional w
 
 ## Skills
 
-- HTML
-- CSS
-- JavaScript
-- React
-- Bootstrap
-- Tailwind CSS
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,figma,react,vite,git,sass,tailwind,bootstrap)](https://skillicons.dev)
 
 ## Projects
 
