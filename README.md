@@ -26,7 +26,7 @@ I am a Frontend Developer with a passion for creating beautiful and functional w
 ### [Project 2: My E-com Store]
 
 - Description: An E-commerce website with a functioning cart system.
-- Technologies: HTML, CSS, JavaScript
+- Technologies: HTML, Bootstrap, React
 
 ### [Project 3: Holidaze]
 
