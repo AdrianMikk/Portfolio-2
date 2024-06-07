@@ -1,0 +1,446 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --hover-color-blue: #3498db;
+  --hover-color-green: #7bed9f;
+  --submit-green: #04AA6D;
+  --submit-hover: #45a049;
+  --nav-white: #d9d9d9;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  min-width: 100%;
+}
+
+footer {
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-p {
+  margin: 0;
+  font-size: 14px;
+  color: #ccc;
+  text-align: center;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+/* SECTIONS */
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.introduction,
+.education {
+  display: grid;
+}
+
+.education {
+  align-content: space-evenly;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+  min-height: 100vh;
+}
+
+.about-h2,
+.about-p {
+  color: white;
+  text-align: center;
+}
+
+.about-h2 {
+  padding: 40px;
+}
+
+.about-p {
+  max-width: 500px;
+  padding: 50px;
+}
+
+.about-image-wrapper {
+  max-width: 400px;
+  padding-top: 85px;
+}
+
+.about-image {
+  width: 100%;
+  display: block;
+  border-radius: 20px;
+}
+
+/* NAV */
+header {
+  height: 80px;
+  background: var(--nav-white);
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.nav-bar.active {
+  height: 450px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+}
+
+.hamburger {
+  display: none;
+}
+
+.nav-bar ul {
+  display: flex;
+}
+
+.nav-bar ul li a {
+  display: block;
+  color: black;
+  font-size: 20px;
+  padding: 10px 25px;
+  border-radius: 50px;
+  transition: 0.2s;
+  margin: 0 5px;
+}
+
+.nav-bar ul li a:hover,
+.nav-bar ul li a.active {
+  background: linear-gradient(90deg, var(--hover-color-green), var(--hover-color-blue));
+}
+
+/* HOME PAGE */
+.intro {
+  background-image: radial-gradient(circle farthest-corner at 22.4% 21.7%, rgba(4, 189, 228, 1) 0%, rgba(2, 83, 185, 1) 100.2%);
+}
+
+.intro-p {
+  max-width: 500px;
+  padding: 40px;
+}
+
+.intro-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0 5px 0;
+}
+
+/* PROJECTS */
+.projects {
+  background: linear-gradient(to right, #c33764, #1d2671);
+}
+
+.projects-h2,
+.projects-text {
+  color: white;
+  text-align: center;
+}
+
+.projects-h2 {
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.projects-text {
+  font-size: larger;
+  font-weight: normal;
+  margin: 100px;
+}
+
+.card {
+  width: 320px;
+  margin: auto;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px;
+  gap: 30px;
+}
+
+.image-content,
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+}
+
+.card-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  border-radius: 20px;
+  padding: 3px;
+}
+
+.card-image .card-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.name,
+.description {
+  color: #fff;
+  text-align: center;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.description {
+  font-size: 16px;
+  padding: 10px;
+  max-width: 200px;
+}
+
+.button-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#ecomButton {
+  padding-top: 23px;
+}
+
+#holidazeButton {
+  padding-top: 46px;
+}
+
+.button {
+  border: none;
+  font-size: 16px;
+  padding: 8px 16px;
+  background: linear-gradient(90deg, var(--hover-color-green), var(--hover-color-blue));
+  color: black;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-width: 100px;
+}
+
+.button:hover {
+  border-radius: 10px;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 1320px) {
+  header {
+    padding: 0 50px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  header {
+    padding: 0 30px;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .card-wrapper {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #ecomButton {
+    padding-top: 0;
+  }
+
+  #holidazeButton {
+    padding-top: 2px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .hamburger .line {
+    width: 30px;
+    height: 3px;
+    background: black;
+    margin: 6px 0;
+  }
+
+  .nav-bar {
+    height: 0;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    background: var(--nav-white);
+    transition: 0.5s;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  .nav-bar ul {
+    display: block;
+    width: fit-content;
+    margin: 80px auto 0;
+    text-align: center;
+    transition: 0.5s;
+    opacity: 0;
+  }
+
+  .nav-bar.nav-bar.active ul {
+    opacity: 1;
+  }
+
+  .nav-bar ul li a {
+    margin-bottom: 12px;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+
+  .about-image-wrapper {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    padding: 0 20px;
+  }
+
+  .nav-bar ul li a {
+    padding: 10px 15px;
+  }
+
+  .intro-p {
+    padding: 20px;
+  }
+
+  .about-p {
+    padding: 30px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .logo {
+    font-size: 24px;
+  }
+
+  .nav-bar ul li a {
+    font-size: 18px;
+    margin: 0 3px;
+  }
+
+  .intro-text {
+    padding-top: 30px;
+  }
+
+  .intro-p {
+    padding: 20px;
+    font-size: 16px;
+  }
+
+  .projects-h2 {
+    font-size: 24px;
+    padding-top: 30px;
+  }
+
+  .projects-text {
+    font-size: 16px;
+    margin: 50px;
+  }
+
+  .card {
+    width: 280px;
+  }
+
+  .card-wrapper {
+    padding-bottom: 20px;
+  }
+
+  .name {
+    font-size: 16px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .about-image-wrapper {
+    padding-top: 30px;
+  }
+
+  .about-h2 {
+    padding: 20px;
+    font-size: 24px;
+  }
+
+  .about-p {
+    padding: 20px;
+    font-size: 14px;
+  }
+
+  .language-wrapper {
+    gap: 10px;
+    margin-left: 32px;
+  }
+}
