@@ -7,6 +7,7 @@ Welcome to my portfolio. This repository showcases my work, skills, and projects
 - [About Me](#about-me)
 - [Skills](#skills)
 - [Projects](#projects)
+- [Portfolio](https://portfolio2-adrianmikk.netlify.app/)
 
 ## About Me
 
