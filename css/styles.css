@@ -15,8 +15,6 @@ html {
   --hover-color-green: #7bed9f;
   --submit-green: #04AA6D;
   --submit-hover: #45a049;
-  --contact-background: #f2f2f2;
-  --error-red: #ff0000;
   --nav-white: #d9d9d9;
 }
 
@@ -392,6 +390,10 @@ header {
     margin: 0 3px;
   }
 
+  .intro-text {
+    padding-top: 30px;
+  }
+
   .intro-p {
     padding: 20px;
     font-size: 16px;
@@ -399,6 +401,7 @@ header {
 
   .projects-h2 {
     font-size: 24px;
+    padding-top: 30px;
   }
 
   .projects-text {
@@ -410,6 +413,10 @@ header {
     width: 280px;
   }
 
+  .card-wrapper {
+    padding-bottom: 20px;
+  }
+
   .name {
     font-size: 16px;
   }
@@ -419,7 +426,7 @@ header {
   }
 
   .about-image-wrapper {
-    padding-top: 20px;
+    padding-top: 30px;
   }
 
   .about-h2 {
